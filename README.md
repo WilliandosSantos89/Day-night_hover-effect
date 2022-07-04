@@ -7,6 +7,4 @@
  
  
  
-<p align="center">
- <img wigth="460" height="300" src="gif/Day night hover.gif">
-</p>
+
