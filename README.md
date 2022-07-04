@@ -1,4 +1,4 @@
-# Day/Nigth Hover Effect
+# Day/Night Hover Effect
 
  Efeito hover dia e noite.
  Esse efeito muda a animação quando passamos o mouse por cima.
