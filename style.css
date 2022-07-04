@@ -54,3 +54,90 @@ body {
     height: 27%;
 }
 
+.moon div:nth-child(2) {
+    top: -11%;
+    left: 60%;
+    width: 16%;
+    height: 16%;
+}
+
+.moon div:nth-child(3) {
+    top: 25%;
+    left: 44%;
+    width: 16%;
+    height: 16%;
+}
+
+.stars {
+    opacity: 1;
+    margin-left: 100px;
+    top: 0;
+    left: 0;
+    transition: all 0.4s ease;
+    z-index: 1000;
+}
+
+.stars div:nth-child(n) {
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 0.4%;
+    height: 0.4%;
+    margin-left: 20%;
+    margin-top: -20%;
+    transition: all 0.5s ease;
+}
+
+.stars div:nth-child(1) {
+    left: 25%;
+    top: 30%;
+}
+
+.stars div:nth-child(2) {
+    left: 55%;
+    top: 20%;
+}
+
+.stars div:nth-child(3) {
+    left: 60%;
+    top: 60%;
+}
+
+.stars div:nth-child(4) {
+    left: 40%;
+    top: 45%;
+}
+
+.stars div:nth-child(5) {
+    left: 15%;
+    top: 55%;
+}
+
+.water {
+    height: 100px;
+    background: #7fa1bb;
+    position: relative;
+    top: 130px;
+    transition: all .7s ease;
+}
+
+/*Hover Effects*/
+
+.day-nigth-container:hover {
+    background: #e9786b;
+}
+
+.day-nigth-container:hover .sun {
+    opacity: 1;
+    top: 105px;
+}
+
+.day-nigth-container:hover .moon {
+    left: 120px;
+    top: -50px;
+}
+
+.day-nigth-container:hover .water {
+    background: #71baf2;
+}
